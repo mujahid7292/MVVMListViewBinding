@@ -13,6 +13,10 @@ public class MainViewModel {
         this.description = news.description;
     }
 
+    public MainViewModel() {
+
+    }
+
     public String getHeader() {
         return header;
     }
